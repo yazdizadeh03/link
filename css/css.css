@@ -1,0 +1,137 @@
+@font-face {
+  font-family: 'Iransans';
+  src: url('../fonts/IranianSansRegular.ttf') format('truetype');
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Example usage */
+th,td,a,label,button,div {
+  font-family: 'Iransans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p {
+  font-family: 'Iransans', sans-serif !important;
+}
+.my-plugin-form-container {
+  margin: 20px;
+}
+
+/* Styles for the form labels */
+.my-plugin-form-container label {
+  display: block;
+  margin-top: 10px;
+}
+
+/* Styles for the form inputs */
+.my-plugin-form-container input[type="text"],
+.my-plugin-form-container input[type="url"],
+.my-plugin-form-container input[type="date"],
+.my-plugin-form-container input[type="submit"] {
+  display: block;
+  margin-top: 5px;
+  padding: 8px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Styles for the submit button */
+.my-plugin-form-container input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+/* Styles for the table */
+.my-plugin-form-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* Styles for the table headers */
+.my-plugin-form-container th {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px;
+}
+
+/* Styles for the table cells */
+.my-plugin-form-container td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+/* Styles for alternate row background */
+.my-plugin-form-container tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+/* Styles for the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* Styles for the table headers */
+table th {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px;
+}
+
+/* Styles for the table cells */
+table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+/* Styles for alternate row background */
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Styles for link URLs */
+table td a {
+  text-decoration: none;
+  color: #0000EE;
+}
+
+/* Styles for delete links */
+table td a.delete-link {
+  color: #FF0000;
+}
+
+/* Hover effect for table rows */
+table tr:hover {
+  background-color: #D0D0D0;
+}
+
+.btn-add {
+  background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    display: block;
+    margin-top: 20px;
+    padding: 8px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#pagenation a {
+    color: #fff;
+}
+#pagenation {
+    text-align: center;
+} 
+.button-style {
+    border-radius: 20px;
+}
+.link {
+    background-color:#B8EF1F !important;
+    border-color: #B8EF1F !important;
+}
+jdp-container {
+    z-index: 1051 !important;
+}

@@ -1,0 +1,205 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: best-link\n"
+"POT-Creation-Date: 2023-09-09 13:02+0430\n"
+"PO-Revision-Date: 2023-09-09 13:02+0430\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: best-link.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: add-form.php:24 add-form.php:44
+msgid "add link"
+msgstr "ایجاد لینک"
+
+#: add-form.php:29 table.php:49 table.php:136
+msgid "Link Name"
+msgstr "نام لینک"
+
+#: add-form.php:32 table.php:50 table.php:139
+msgid "Link URL"
+msgstr "آدرس لینک"
+
+#: add-form.php:35 table.php:52 table.php:145
+msgid "Expiration Date"
+msgstr "تاریخ انقضا"
+
+#: add-form.php:38 table.php:54 table.php:148
+msgid "Link Type"
+msgstr "نوع لینک"
+
+#: data-list.php:29
+msgid "Invalid shortcode name: Empty name given."
+msgstr ""
+
+#. translators: 1: Shortcode name, 2: Space-separated list of reserved characters.
+#: data-list.php:40
+#, php-format
+msgid ""
+"Invalid shortcode name: %1$s. Do not use spaces or reserved characters: %2$s"
+msgstr ""
+
+#: data-list.php:66
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: data-list.php:72
+msgid "Links"
+msgstr "لینک ها"
+
+#: delete-data.php:22
+msgid "Link removed successfully"
+msgstr "لینک با موفقیت حذف شد."
+
+#: help.php:155
+msgid "help"
+msgstr "راهنما"
+
+#: help.php:159
+msgid "Name"
+msgstr "نام"
+
+#: help.php:160
+msgid "Description"
+msgstr "توضیحات"
+
+#: help.php:161
+msgid "Shortcode"
+msgstr "کد کوتاه"
+
+#: help.php:166
+msgid "Settings panel"
+msgstr "پنل تنظیمات"
+
+#: help.php:167
+msgid ""
+"To use the plugin settings panel on another page, copy the short code and "
+"place it on that page."
+msgstr ""
+"برای استفاده از پنل تنظیمات افزونه در صفحه دیگر، کد کوتاه را کپی کرده و در "
+"آن صفحه قرار دهید"
+
+#: help.php:172
+msgid "Footer Link"
+msgstr "لینک پاورقی"
+
+#: help.php:173
+msgid ""
+"To display the footer links, copy the shortcode and put it in that section."
+msgstr ""
+"برای نمایش لینک های پاورقی، کد کوتاه را کپی کرده و در آن قسمت قرار دهید"
+
+#: help.php:178
+msgid "Sidebar Link"
+msgstr "لینک نوار کناری"
+
+#: help.php:179
+msgid ""
+"To display the sidebar links,copy rhe shortcode and put it in that section."
+msgstr ""
+"برای نمایش لینک های نوار کناری، کد کوتاه را کپی کرده و در آن قسمت قرار دهید"
+
+#: insert-data.php:39
+msgid "This link has already been added"
+msgstr "این لینک قبلا اضافه شده است"
+
+#: insert-data.php:55
+msgid "Link successfully added."
+msgstr "لینک با موفقیت اضافه شد."
+
+#: table.php:48
+msgid "Id"
+msgstr "ردیف"
+
+#: table.php:51
+msgid "Link Date"
+msgstr "تاریخ لینک"
+
+#: table.php:53
+msgid "Remaining Days"
+msgstr "روز های باقی مانده"
+
+#: table.php:55
+msgid "operations"
+msgstr "عملیات"
+
+#: table.php:86
+msgid "The link has expired"
+msgstr "لینک منقضی شده است"
+
+#: table.php:86
+msgid "days left"
+msgstr "روز"
+
+#: table.php:88
+msgid "Edit"
+msgstr "ویرایش"
+
+#: table.php:89
+msgid "Delete"
+msgstr "حذف"
+
+#: table.php:106
+msgid "Previous"
+msgstr "صفحه قبلی"
+
+#: table.php:116
+msgid "Next"
+msgstr "صفحه بعدی"
+
+#: table.php:128
+msgid "Edit Link"
+msgstr "ویرایش لینک"
+
+#: table.php:142
+msgid "Link_date"
+msgstr "تاریخ لینک"
+
+#: table.php:154
+msgid "Save"
+msgstr "ذخیره"
+
+#: table.php:159
+msgid "Close"
+msgstr "بستن"
+
+#: update-data.php:54
+msgid "Link updated successfully"
+msgstr "لینک با موفقیت به روز شد."
+
+#. Plugin Name of the plugin/theme
+msgid "best-link"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Ravand Soft Best link Plugin"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "yazdizadeh"
+msgstr ""
+
+#~ msgid "footer"
+#~ msgstr "پاورقی"
+
+#~ msgid "sidebar"
+#~ msgstr "نوار کناری"
+
+#~ msgid "Add Link"
+#~ msgstr "ایجاد لینک"
+
+#~ msgid "Shortcode copied"
+#~ msgstr "کد کوتاه"
